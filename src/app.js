@@ -6,7 +6,7 @@ app.use(cors())
 const bodyparser = require("body-parser")
 app.use(bodyparser())
 
-let port = process.env.PORT || 5500
+let port = process.env.PORT || 9000
 
 const fileupload = require("express-fileupload")
 var cloudinary = require("cloudinary").v2;
